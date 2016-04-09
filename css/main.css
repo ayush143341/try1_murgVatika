@@ -1,0 +1,100 @@
+html, body{
+   height: 100%;
+}
+header{
+   background-image: url('image/home_page.jpg');
+   height: 100%;
+   background-size: cover;
+}
+
+body{
+   margin-top: 50px;
+}
+
+nav{
+   background-color: #00CED1;
+}
+.navbar-brand {
+   font-family: sans-serif;
+   font-style: oblique;
+   font-size: 28px;
+}
+ul li{
+   font-size: 17px;
+   font-family: cursive;
+}
+#order{
+   color: #00CED1;
+}
+.contact-background{
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   width: 100%;
+}
+#header-text{
+   padding-top:100px;
+   font-family: sans-serif;
+   font-style: oblique;
+   font-size: 55px;
+   padding-bottom: 395px;
+}
+#contact-text{
+   padding-top:100px;
+   font-family: sans-serif;
+   font-style: oblique;
+   font-size: 55px;
+   padding-bottom: 395px;
+}
+@media screen (min-width:360){
+   .header-background{
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+   }
+   .header-background #header-text{
+      padding-top:70px;
+      font-family: sans-serif;
+      font-style: oblique;
+      font-size: 35px;
+   }
+}
+footer{
+   background: #00CED1;
+   color: black;
+   height: 150px;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 20px;
+   font-family: sans-serif;
+   font-style: oblique;
+}
+@media screen (max-width:360px) {
+   footer{
+      background: #333;
+      color: #eee;
+      font-size: 11px;
+      padding: 10px;
+   }
+}
+#feedback{
+   padding-top: 140px;
+   padding-bottom: 50px;
+   background-color: #00CED1;
+}
+#feedback p{
+   font-size: 17px;
+   font-family: cursive;
+   color: white;
+}
+.panel-group a{
+   text-decoration:none;
+   font-size: 17px;
+   font-family: cursive;
+}
+.panel-body{
+   font-size: 17px;
+   font-family: cursive;
+}

@@ -1,0 +1,179 @@
+<!Doctype html>
+<html lang="en">
+   <head>
+         <meta charset="utf-8"/>
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+         <title>Bootstrap with Local Server</title>
+
+         <!--We link the  CSS files here-->
+         <!-- Number one is: Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+
+         <!-- Number Two is: Optional theme -->
+         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+         <!--My own custom css file-->
+         <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <!--We code inbetween the below area-->
+      <!--Code area starts-->
+      <nav class="navbar   navbar-fixed-top" id="my-navbar">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a href="#" class="navbar-brand" style="color:white;background-color:rgba(255,255,255,0.5);border-radius:10px;"><span class="glyphicon glyphicon-leaf"></span> MurgVatika</a>
+            </div><!--end navbar header-->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+               <!--<button type="button" class="btn btn-md  navbar-btn pull-right" id="order">Order Now</button>-->
+               <!--<a href="#" class="btn btn-md navbar-btn pull-right" id="order">Order Now</a>-->
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <!--<li><a href="#menu">Menu</a></li>-->
+                  <li><a href="#feedback">Feedback</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#order">Order Now <span class="glyphicon glyphicon-tags"></span></a></li>
+               </ul>
+            </div><!--end collapse-->
+         </div><!--end container-->
+      </nav><!--end navbar-->
+      <div class="header-container"  style="height:100%;width:100%;background-image:url('images/home_page.jpg');background-repeat:no-repeat;text-align:center;background-size:cover;">
+         <div class="container-fluid">
+            <div class="row">
+                  <div class="col-xs-12 col-lg-12" id="header-text">
+                     <p  style="color:white;font-family:modal-content;font-size:60px;"><strong>" Taste Your Hunger "</strong><br>
+                        <a href="#menu"><img src="images/shef7.png" alt="shef-image" style="background-color:rgba(255,255,255,0.3);border-radius:150px;padding:20px;" /></a>
+                     </p>
+                  </div>
+            </div>
+         </div>
+      </div>
+      <div id="menu" style="height:100%;width:100%;background-image:url('images/menu.jpg');background-repeat:no-repeat;text-align:center;font-size:28px;color:#00CED1;background-size:cover;">
+         <div class="container-fluid">
+            <div class="row">
+               <p>
+                  Ayushman
+               </p>
+            </div>
+         </div>
+      </div>
+      <div id="feedback" style="height:100%;width:100%;background-image:url('images/feed.jpg');background-repeat:no-repeat;text-align:center;background-size:cover;">
+         <div class="container">
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="image_1"  style="background-color:rgba(255,255,255,0.5);border-radius:90px;">
+                        <img src="images/anant.jpg" alt="anant's image"  class="img-circle" style="padding:20px;" />
+                     </div>
+                     <blockquote>
+                        <p  style="background-color:rgba(255,255,255,0.5);border-radius:10px;">
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                        <!--<footer  class="pull-left">Anant , RF Engineer , NOKIA</footer>-->
+                        <!-- ************************************-->
+                        <div class="panel-group" id="accordion1">
+                           <div class="panel panel-info">
+                              <div class="panel-heading">
+                                 <div class="panel-title">
+                                    <a href="#anant-panel" data-toggle="collapse" data-parent="#accordion1" >Anant Vijay   <span class="glyphicon glyphicon-menu-down"></span></a>
+                                 </div><!--end panel title-->
+                                 <div class="panel-collapse collapse" id="anant-panel">
+                                    <div class="panel-body">
+                                       RF Engineer , NOKIA <br>  Bangalore
+                                    </div><!--end panel-body-->
+                                 </div><!--end anant's panel-->
+                              </div><!--end panel heading-->
+                           </div><!--end panel-->
+                        </div><!--end panel-group-->
+                        <!-- ************************************-->
+                     </blockquote>
+                  </div><!--end first 4 col-->
+                  <div class="col-lg-4">
+                     <div class="image_2" style="background-color:rgba(255,255,255,0.5);border-radius:90px;">
+                        <img src="images/grv.jpg" alt="grvs image"  class="img-circle" style="padding:20px;"/>
+                     </div>
+                     <blockquote>
+                        <p  style="background-color:rgba(255,255,255,0.5);border-radius:10px;">
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                        <!--<footer class="pull-left">Grv , Software Developer , 42Gears</footer>-->
+                        <div class="panel-group" id="accordion2">
+                           <div class="panel panel-info">
+                              <div class="panel-heading">
+                                 <div class="panel-title">
+                                    <a href="#grvpanel" data-toggle="collapse" data-parent="#accordion2">Gaurav Rai   <span class="glyphicon glyphicon-menu-down"></span></a>
+                                 </div><!--end panel title-->
+                                 <div class="panel-collapse collapse" id="grvpanel">
+                                    <div class="panel-body">
+                                       Software Developer , 42Gears<br>  Bangalore
+                                    </div><!--endgrv's  panel body-->
+                                 </div><!--end grv panel body-->
+                              </div><!--end panel heading-->
+                           </div><!--end panel primary-->
+                        </div><!--end panel group-->
+                     </blockquote>
+                  </div><!--end second 4 col-->
+                  <div class="col-lg-4">
+                     <div class="image_3" style="background-color:rgba(255,255,255,0.5);border-radius:90px;">
+                        <img src="images/daddu.jpg" alt="daddu's image"  class="img-circle" style="padding:20px;" />
+                     </div>
+                     <blockquote>
+                        <p  style="background-color:rgba(255,255,255,0.5);border-radius:10px;">
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                        <!--<footer class="pull-left">Daddu , Software Developer , 42Gears</footer>-->
+                        <div class="panel-group" id="accordion3">
+                           <div class="panel panel-info">
+                              <div class="panel-heading">
+                                 <div class="panel-title">
+                                    <a href="#Daddu1" data-toggle="collapse" data-parent="#accordion3">Abhishek   <span class="glyphicon glyphicon-menu-down"></span></a>
+                                 </div><!--end panel title-->
+                                 <div class="panel-collapse collapse" id="Daddu1">
+                                    <div class="panel-body">
+                                       Software Developer , 42Gears<br>  Bangalore
+                                    </div><!--end daddu's panel body-->
+                                 </div><!--end daddu's collapse-->
+                              </div><!--end panel heading-->
+                           </div>
+                        </div>
+                     </blockquote>
+                  </div><!--end 3rd 4 col-->
+               </div><!--end row-->
+         </div><!--end container-->
+      </div>
+      <div id="contact" style="height:100%;width:100%;background-image:url('images/contact.jpg');background-repeat:no-repeat;text-align:center;font-size:28px;color:white;background-size:cover;">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-12 col-lg-12">
+                  <img src="images/shef3.jpg" alt="shef-image" />
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-4 col-lg-4">
+                  <h5>Copyright &copy; 2016</h5>
+               </div>
+               <div class="col-xs-4 col-lg-4">
+                  <h6>Coded With <span class="glyphicon glyphicon-heart"></span>  By Ayushman Kumar Priyadarshan</h6>
+               </div>
+               <div class="col-xs-4 col-lg-4" style="text-align:center;">
+                  <h6>Thanks...for Your Visit...<span class="glyphicon glyphicon-heart"></span><span class="glyphicon glyphicon-heart"></span><span class="glyphicon glyphicon-heart"></span></h6>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--Code area ends-->
+      <!--Jquery files are needed here-->
+      <script src="js/jquery-1.12.0.min.js"></script>
+      <!--Javascript files should be linked at the bottom of the page-->
+      <!-- Number Two is: Latest compiled and minified JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+   </html>
